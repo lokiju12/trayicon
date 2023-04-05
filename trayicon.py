@@ -16,7 +16,7 @@ def erp():
 def tel():
     subprocess.Popen(currentpath+'\\tel.exe')
 def ip_change():
-    subprocess.Popen(currentpath+'\\IP_Change.cmd')
+    subprocess.Popen(currentpath+'\\IP_Change.exe')
 # 현재 실행중인 trayicon.exe를 모두 삭제
 def old_trayicon_shutdown():
     subprocess.Popen('taskkill /f /im trayicon.exe', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
